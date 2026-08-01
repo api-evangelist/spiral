@@ -1,0 +1,21 @@
+generated: '2026-07-21'
+method: searched
+source: live HTTP probes of /.well-known/* on spiraldb.com and spiral.dev
+note: >-
+  No .well-known discovery documents are published on either host. All probes returned 404.
+  Recorded as honest negative data; no WellKnown/SecurityTxt pointer is wired.
+hosts:
+- host: https://spiraldb.com
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+- host: https://spiral.dev
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}

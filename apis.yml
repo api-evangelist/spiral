@@ -1,8 +1,28 @@
 aid: spiral
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spiral.png
 name: Spiral
-description: 'Spiral is a company surfaced as a portfolio company of amplify-partners, general-catalyst
-  and added to the API Evangelist network as a stub for enrichment. Sector: developer-tools. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: >-
+  Spiral (SpiralDB) is a multimodal data platform built for the "machine consumer" — frontier AI
+  systems and agents. It unifies video, images, audio, embeddings, point clouds, sensor streams,
+  tables, and text under one query language and coordinate-frame system, serving everything from
+  raw bytes to model-ready tensors at machine-scale throughput for pretraining pipelines and
+  agentic access. Spiral is the creator of Vortex, a high-performance extensible columnar data
+  format (100x faster random access and 10-20x faster scans vs. Apache Parquet) now incubating
+  under the Linux Foundation, along with the FastLanes, FSST, and ALP compression libraries. The
+  hosted Spiral warehouse is currently invite-only (Request Access); the public developer surface
+  today is the open-source Vortex ecosystem (Python and Rust bindings). Backed by Amplify Partners
+  and General Catalyst.
 url: https://raw.githubusercontent.com/api-evangelist/spiral/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Developer Tools
+- Data
+- Data Infrastructure
+- Columnar Format
+- Multimodal AI
+- Machine Learning
+- Open Source
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +50,21 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/spiral-domain-security.yml
 - type: Website
   url: https://spiraldb.com
+- type: Blog
+  url: https://spiral.dev/blog
+- type: GitHubOrganization
+  url: https://github.com/spiraldb
+- type: Packages
+  url: packages/spiral-packages.yml
+- type: SDKs
+  url: packages/spiral-packages.yml
+
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

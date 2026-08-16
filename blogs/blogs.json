@@ -5,7 +5,7 @@
       "source": "https://spiraldb.com/rss/feed.xml",
       "feed_url": "https://spiraldb.com/rss/feed.xml",
       "title": "",
-      "saved": 0,
+      "saved": 3,
       "method": "feed"
     },
     {
@@ -16,6 +16,6 @@
       "method": "discovered"
     }
   ],
-  "post_count": 16,
-  "fetched": "2026-08-06T14:08:46Z"
+  "post_count": 19,
+  "fetched": "2026-08-15T12:11:08Z"
 }
